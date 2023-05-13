@@ -1,0 +1,32 @@
+//module file system 
+const fs = require('fs);
+console.log(fs); [and running with : node app.js]
+
+
+//create string to file  (sychoronous)
+fs.namaMethod
+
+// write string to file (sychoronous)
+// try {
+//     fs.writeFileSync('data/test.txt', 'Hello world secara synchoronous');
+// } catch(e){
+//     console.log(e);
+// }
+
+//writing string to file asynchronous
+// fs.writeFile('data/test.txt', 'Hello world secara asynchorous', (e) => {
+//     console.log(e);
+// })
+
+// Read file (synchronous)
+//  const data = fs.readFileSync('data/test.txt', 'utf-8');
+//  console.log(data.toString());
+
+
+ //read file asynchronous
+//  fs.readFile('data/test.txt', function (err, data) {
+//     if (err) {
+//        return console.error(err);
+//     }
+//     console.log("Asynchronous read: " + data.toString());
+//  });
